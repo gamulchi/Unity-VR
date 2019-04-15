@@ -42,8 +42,8 @@ MonoBehaviour:
     y: 0
     width: 397
     height: 603
-  m_MinSize: {x: 202, y: 224}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -73,7 +73,11 @@ MonoBehaviour:
   m_MinSize: {x: 606, y: 224}
   m_MaxSize: {x: 6054, y: 4024}
   vertical: 0
+<<<<<<< HEAD
   controlID: 94
+=======
+  controlID: 85
+>>>>>>> parent of 7bc8a69... import again
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -125,7 +129,11 @@ MonoBehaviour:
   m_MinSize: {x: 606, y: 498}
   m_MaxSize: {x: 10002, y: 14048}
   vertical: 1
+<<<<<<< HEAD
   controlID: 93
+=======
+  controlID: 84
+>>>>>>> parent of 7bc8a69... import again
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -177,7 +185,11 @@ MonoBehaviour:
   m_MinSize: {x: 883, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 1
+<<<<<<< HEAD
   controlID: 91
+=======
+  controlID: 150
+>>>>>>> parent of 7bc8a69... import again
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +260,11 @@ MonoBehaviour:
   m_MinSize: {x: 883, y: 498}
   m_MaxSize: {x: 14004, y: 14048}
   vertical: 0
+<<<<<<< HEAD
   controlID: 92
+=======
+  controlID: 151
+>>>>>>> parent of 7bc8a69... import again
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -289,8 +305,8 @@ MonoBehaviour:
     y: 0
     width: 545
     height: 947
-  m_MinSize: {x: 277, y: 74}
-  m_MaxSize: {x: 4002, y: 4024}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 17}
@@ -408,10 +424,17 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_SceneHierarchy:
     m_TreeViewState:
+<<<<<<< HEAD
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 6a590000
       m_LastClickedID: 22890
       m_ExpandedIDs: 22f8ffffd4fbffff
+=======
+      scrollPos: {x: 0, y: 90}
+      m_SelectedIDs: e2f3ffff
+      m_LastClickedID: -3102
+      m_ExpandedIDs: f6f7ffffd4fbffff
+>>>>>>> parent of 7bc8a69... import again
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: Main Camera
@@ -518,10 +541,17 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
+<<<<<<< HEAD
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 16360000
     m_LastClickedID: 13846
     m_ExpandedIDs: 0000000058280000b42a00002c360000ae390000aa4100009e420000d244000018460000744600007e480000264c00007a530000e4540000f25d0000f45d0000f65d0000f85d000000ca9a3b
+=======
+    scrollPos: {x: 0, y: 79}
+    m_SelectedIDs: 58280000
+    m_LastClickedID: 10328
+    m_ExpandedIDs: 0000000058280000b42a0000e03200002c36000034360000ae390000aa4100009e420000d244000018460000744600007e4800002c490000264c0000864e00000c5100007a530000e4540000bc5c0000be5c0000c05c0000c25c000000ca9a3b
+>>>>>>> parent of 7bc8a69... import again
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -549,7 +579,11 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
+<<<<<<< HEAD
     m_ExpandedIDs: 0000000058280000b42a0000e03200002c36000034360000ae390000aa4100009e420000d244000018460000744600007e4800002c490000264c0000864e00000c5100007a530000e4540000f25d0000f45d0000f65d0000f85d0000
+=======
+    m_ExpandedIDs: 0000000058280000b42a0000e03200002c36000034360000ae390000aa4100009e420000d244000018460000744600007e4800002c490000264c0000864e00000c5100007a530000e4540000bc5c0000be5c0000c05c0000c25c0000
+>>>>>>> parent of 7bc8a69... import again
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -716,9 +750,15 @@ MonoBehaviour:
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
     m_Target: {x: 30.108839, y: -1.6545287, z: 15.423174}
     speed: 2
     m_Value: {x: 30.108839, y: -1.6545287, z: 15.423174}
+=======
+    m_Target: {x: -7.7784877, y: 15.66473, z: 11.902243}
+    speed: 2
+    m_Value: {x: -7.7784877, y: 15.66473, z: 11.902243}
+>>>>>>> parent of 7bc8a69... import again
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -746,6 +786,7 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
+<<<<<<< HEAD
     m_Target: {x: 0.18125461, y: 0.6592033, z: -0.16825691, w: 0.710132}
     speed: 2
     m_Value: {x: 0.18125461, y: 0.6592033, z: -0.16825691, w: 0.710132}
@@ -753,6 +794,15 @@ MonoBehaviour:
     m_Target: 48.586544
     speed: 2
     m_Value: 48.586544
+=======
+    m_Target: {x: 0.29813513, y: -0.5059785, z: 0.19184215, w: 0.78631914}
+    speed: 2
+    m_Value: {x: 0.29813513, y: -0.5059785, z: 0.19184215, w: 0.78631914}
+  m_Size:
+    m_Target: 3.78984
+    speed: 2
+    m_Value: 3.78984
+>>>>>>> parent of 7bc8a69... import again
   m_Ortho:
     m_Target: 0
     speed: 2
