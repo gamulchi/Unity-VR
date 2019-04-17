@@ -1,0 +1,2 @@
+C:\Users\가현\Documents\VRAR\가영_0417\Temp\UnityVS_obj\Debug\가영_0417.Editor.csprojResolveAssemblyReference.cache
+C:\Users\가현\Documents\VRAR\가영_0417\Temp\UnityVS_obj\Debug\가영_0417.Editor.csproj.CoreCompileInputs.cache

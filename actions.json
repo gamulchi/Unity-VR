@@ -41,6 +41,14 @@
       "requirement": "optional"
     },
     {
+      "name": "/actions/default/in/TouchPad",
+      "type": "boolean"
+    },
+    {
+      "name": "/actions/default/in/TouchPosition",
+      "type": "vector2"
+    },
+    {
       "name": "/actions/default/out/Haptic",
       "type": "vibration"
     },
@@ -89,6 +97,10 @@
     },
     {
       "name": "/actions/mixedreality",
+      "usage": "single"
+    },
+    {
+      "name": "/actions/NewSet",
       "usage": "single"
     }
   ],
@@ -142,7 +154,9 @@
       "/actions/default/in/SkeletonRightHand": "Skeleton (Right)",
       "/actions/default/in/Teleport": "Teleport",
       "/actions/default/out/Haptic": "Haptic",
-      "/actions/platformer/in/Jump": "Jump"
+      "/actions/platformer/in/Jump": "Jump",
+      "/actions/default/in/TouchPad": "TouchPad",
+      "/actions/default/in/TouchPosition": "TouchPosition"
     }
   ]
 }
