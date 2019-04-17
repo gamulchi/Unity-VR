@@ -1,0 +1,284 @@
+fileFormatVersion: 2
+guid: 0d46c4bc07cbafc41aee107eaeb073b8
+SketchUpImporter:
+  generateBackFace: 0
+  mergeCoplanarFaces: 0
+  selectedNodes: 000000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000100000001100000012000000130000001400000015000000160000001700000018000000190000001a0000001b0000001c0000001d0000001e0000001f000000200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000
+  assetHash:
+    serializedVersion: 2
+    Hash: 45f0a61e4edd73d34bc97a47e6c1fa62
+  longitude: -105.242139
+  latitude: 40.018309
+  northCorrection: -0
+  fileUnit: 0
+  sketchUpImportData:
+    defaultCamera:
+      position: {x: 0.60303587, y: 4.4229445, z: 2.0380557}
+      lookAt: {x: 1.2375519, y: 1.3710103, z: -0.13216747}
+      up: {x: 0.2254841, y: 0.59529334, z: -0.7712216}
+      fov: 35
+      aspectRatio: 0
+      orthoSize: 1
+      isPerspective: 1
+    scenes: []
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 7'8" x 36" glass door#3
+    100002: 7'8" x 36" glass door#4
+    100004: 7'8"x72" glass french doors#2
+    100006: B_RAIL
+    100008: B_RAIL#1
+    100010: Component#10
+    100012: Component#10 1
+    100014: Component#10 2
+    100016: Component#10 3
+    100018: Component#26
+    100020: Component#26 1
+    100022: //RootNode
+    100024: Group 11
+    100026: Group 13
+    100028: Group 2
+    100030: Group 29
+    100032: Group 30
+    100034: Group 32
+    100036: Group 35
+    100038: Group 36
+    100040: Group 38
+    100042: Group 4
+    100044: Group 48
+    100046: Group 49
+    100048: Group 5
+    100050: Group 51
+    100052: Group 59
+    100054: Group 60
+    100056: Group 62
+    100058: Group 7
+    100060: Group 9
+    100062: L_RAIL
+    100064: L_RAIL 1
+    100066: Lever Door Handle#2
+    100068: Lever Door Handle#2 1
+    100070: R_RAIL
+    100072: R_RAIL#1
+    100074: T_RAIL
+    100076: T_RAIL#1
+    400000: 7'8" x 36" glass door#3
+    400002: 7'8" x 36" glass door#4
+    400004: 7'8"x72" glass french doors#2
+    400006: B_RAIL
+    400008: B_RAIL#1
+    400010: Component#10
+    400012: Component#10 1
+    400014: Component#10 2
+    400016: Component#10 3
+    400018: Component#26
+    400020: Component#26 1
+    400022: //RootNode
+    400024: Group 11
+    400026: Group 13
+    400028: Group 2
+    400030: Group 29
+    400032: Group 30
+    400034: Group 32
+    400036: Group 35
+    400038: Group 36
+    400040: Group 38
+    400042: Group 4
+    400044: Group 48
+    400046: Group 49
+    400048: Group 5
+    400050: Group 51
+    400052: Group 59
+    400054: Group 60
+    400056: Group 62
+    400058: Group 7
+    400060: Group 9
+    400062: L_RAIL
+    400064: L_RAIL 1
+    400066: Lever Door Handle#2
+    400068: Lever Door Handle#2 1
+    400070: R_RAIL
+    400072: R_RAIL#1
+    400074: T_RAIL
+    400076: T_RAIL#1
+    2100000: _defaultMat
+    2100002: Beige
+    2100004: Pine
+    2100006: Stain Grade Wood
+    2100008: '[Wood_Cherry_Original]'
+    2100010: Paint Grade MDF
+    2100012: '[Translucent Glass Gray]'
+    2100014: '[Translucent_Glass_Blue]'
+    2100016: '[Color_002]'
+    2100018: '[Wood Cherry Original]1'
+    2100020: '[Color_C04]'
+    2100022: '[Color_C16]'
+    2300000: 7'8" x 36" glass door#3
+    2300002: 7'8" x 36" glass door#4
+    2300004: B_RAIL
+    2300006: B_RAIL#1
+    2300008: Component#10
+    2300010: Component#10 1
+    2300012: Component#10 2
+    2300014: Component#10 3
+    2300016: Component#26
+    2300018: Component#26 1
+    2300020: //RootNode
+    2300022: Group 11
+    2300024: Group 13
+    2300026: Group 2
+    2300028: Group 30
+    2300030: Group 32
+    2300032: Group 36
+    2300034: Group 38
+    2300036: Group 49
+    2300038: Group 5
+    2300040: Group 51
+    2300042: Group 60
+    2300044: Group 62
+    2300046: Group 7
+    2300048: Group 9
+    2300050: L_RAIL
+    2300052: L_RAIL 1
+    2300054: R_RAIL
+    2300056: R_RAIL#1
+    2300058: T_RAIL
+    2300060: T_RAIL#1
+    3300000: 7'8" x 36" glass door#3
+    3300002: 7'8" x 36" glass door#4
+    3300004: B_RAIL
+    3300006: B_RAIL#1
+    3300008: Component#10
+    3300010: Component#10 1
+    3300012: Component#10 2
+    3300014: Component#10 3
+    3300016: Component#26
+    3300018: Component#26 1
+    3300020: //RootNode
+    3300022: Group 11
+    3300024: Group 13
+    3300026: Group 2
+    3300028: Group 30
+    3300030: Group 32
+    3300032: Group 36
+    3300034: Group 38
+    3300036: Group 49
+    3300038: Group 5
+    3300040: Group 51
+    3300042: Group 60
+    3300044: Group 62
+    3300046: Group 7
+    3300048: Group 9
+    3300050: L_RAIL
+    3300052: L_RAIL 1
+    3300054: R_RAIL
+    3300056: R_RAIL#1
+    3300058: T_RAIL
+    3300060: T_RAIL#1
+    4300000: Mesh Component#24
+    4300002: Mesh Group 2
+    4300004: Mesh Group 5
+    4300006: Mesh Group 7
+    4300008: Mesh Group 9
+    4300010: Mesh Group 11
+    4300012: Mesh Group 13
+    4300014: Mesh 7'8" x 36" glass door#4
+    4300016: Mesh T_RAIL#1
+    4300018: Mesh L_RAIL
+    4300020: Mesh R_RAIL#1
+    4300022: Mesh B_RAIL#1
+    4300024: Mesh 7'8" x 36" glass door#3
+    4300026: Mesh Group 30
+    4300028: Mesh Group 32
+    4300030: Mesh T_RAIL
+    4300032: Mesh R_RAIL
+    4300034: Mesh B_RAIL
+    4300036: Mesh Group 49
+    4300038: Mesh Component#26
+    4300040: Mesh Component#10
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 2
+    materialSearch: 0
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.0254
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
