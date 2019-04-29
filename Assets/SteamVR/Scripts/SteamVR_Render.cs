@@ -324,7 +324,7 @@ namespace Valve.VR
 
 #if UNITY_2017_1_OR_NEWER
 		if (cam.cameraType != CameraType.VR)
-			return;
+			return;//
 #else
             //custom code
             if (!cam.stereoEnabled) //if not main camera (stereoEnabled isn't perfect, but it is the fast/easiest way to check this in Unity 5.4)
