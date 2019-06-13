@@ -1,0 +1,131 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+//게임 시작 관리하는 매니저 스크립트
+//부엌 불로 시작하는가 아니면 담배 불로 시작하는가
+
+public class GamePlayManager : MonoBehaviour
+{
+    //부엌불로 시작하는지 아니면 그냥 불로 시작하는지
+    public enum GameState { JustFire = 0, KitchenFire = 1,ElectricFire=2}
+    //조건들 나열
+    public GameState FireStart = GameState.KitchenFire;
+    //랜덤값 받을 발화 조건
+    public GameObject JustFireStart;
+    //이건 따로 인스펙터에서 씬에 있는 fire오브젝트 참조해야줘야함(fire오브젝트가 자식 오브젝트가 아니므로)
+    public GameObject KitchenFire;
+    public float SmokeDeathTime = 5f;
+    public bool IsGameEnd = false;
+    //게임 끝났는지 아닌지 저장하는 변수
+    public List<GameObject> CollapsingFire = new List<GameObject>();
+    // Start is called before the first frame update
+    IEnumerator TimeOut()
+    {
+//아직 게임 안끝났으면(isGameEnd=false)
+        while (IsGameEnd == false)
+        {
+            yield return new WaitForSeconds(SmokeDeathTime);
+//SmokeDeathTime이 지나면
+//isGameEnd==true(게임 종료)
+            IsGameEnd =true;
+        }
+    }
+    IEnumerator CheckingCollapsingFire()
+    {
+        while (IsGameEnd == false)
+        {
+            CollapsingFire.Clear();
+            for(int i = 0; i < GameObject.FindGameObjectsWithTag("Fire").Length; i++)
+            {
+                if (GameObject.FindGameObjectsWithTag("Fire")[i].GetComponent<NormalFire>().FireCollapse == true)
+                {
+                    CollapsingFire.Add(GameObject.FindGameObjectsWithTag("Fire")[i].gameObject);
+                }
+            }
+            for(int j = 0; j < CollapsingFire.Count-1; j++)
+            {
+                if (!CollapsingFire[j])
+                {
+                    continue;
+                }
+                else
+                {
+
+                    for (int k = j + 1; k < CollapsingFire.Count; k++)
+                    {
+                        if (CollapsingFire[k])
+                        {
+                            if (CollapsingFire[j].transform.position == CollapsingFire[k].transform.position)
+                            {
+                                int Rand = Random.Range(0, 2);
+                                if (Rand == 0)
+                                {
+                                    Destroy(CollapsingFire[j]);
+                                }
+                                if (Rand == 1)
+                                {
+                                    Destroy(CollapsingFire[k]);
+                                }
+                            }
+                        }
+                        else
+                        {
+                            continue;
+                        }
+                    }
+                }
+            }
+            yield return new WaitForSeconds(.5f);
+        }
+    }
+    void Start()
+    {
+        switch (SceneManager.GetActiveScene().name)
+        {
+            case "k_fire":
+                FireStart = GameState.KitchenFire;
+                break;
+            case "elecfire":
+                FireStart = GameState.ElectricFire;
+
+                break;
+            case "fire":
+                FireStart = GameState.JustFire;
+                StartCoroutine(CheckingCollapsingFire());
+
+                break;
+        }
+        GameObject pot;
+        pot = GameObject.Find("pot");
+        if (pot.GetComponent<Rigidbody>().constraints != RigidbodyConstraints.FreezeRotation)
+        {
+            pot.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeRotation;
+        }
+        StartCoroutine(TimeOut());
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        //그냥 발화로 시작했다면
+        if (FireStart == (GameState)0)
+        {
+            if (JustFireStart.activeInHierarchy == false)
+            {
+                print("Diactive");
+                JustFireStart.SetActive(true);
+            }
+        }
+        if (FireStart == (GameState)1)
+        {
+            //부엌 발화라면
+        }
+        if (FireStart == (GameState)2)
+        {
+            //전기 발화라면
+
+        }
+        
+    }
+}

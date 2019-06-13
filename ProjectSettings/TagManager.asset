@@ -3,7 +3,28 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Fire
+  - CheckingFire
+  - Water
+  - GameManager
+  - KitchenFire
+  - Extinguisher
+  - HosePart
+  - SafePin
+  - Lever
+  - LeftHand
+  - RightHand
+  - pot
+  - OilFlame
+  - TabWater
+  - Ex_Water
+  - Smoke
+  - Canvas
+  - Elevator
+  - FireAlarm
+  - LoopTopDoor
   layers:
   - Default
   - TransparentFX
@@ -13,7 +34,7 @@ TagManager:
   - UI
   - 
   - 
-  - PostProcessing
+  - 
   - 
   - 
   - 

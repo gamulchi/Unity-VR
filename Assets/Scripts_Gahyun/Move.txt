@@ -1,0 +1,51 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class Move : MonoBehaviour
+{
+    public float MoveSpeed = 2f;
+    public GameObject Camera;
+    private Rigidbody rigid;
+    public float JumpPower = 0.05F;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        PlayerMove();
+    }
+
+    void PlayerMove()
+    {
+        transform.Rotate(new Vector3(0, Input.GetAxis("Mouse X"), 0) * Time.deltaTime * TestPlayerMoving.CamSpeed);
+        //Camera.transform.Rotate(new Vector3(-Input.GetAxis("Mouse Y"), Input.GetAxis("Mouse X"), 0) * Time.deltaTime * TestPlayerMoving.CamSpeed);
+
+        if (Input.GetKey(KeyCode.W))
+        {
+            transform.Translate(Vector3.forward * MoveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.A))
+        {
+            transform.Translate(Vector3.left * MoveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.D))
+        {
+            transform.Translate(Vector3.right * MoveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.S))
+        {
+            transform.Translate(Vector3.back * MoveSpeed * Time.deltaTime);
+        }
+        if (Input.GetKey(KeyCode.Space))
+        {
+            transform.Translate(Vector3.up * JumpPower);
+
+        }
+    }
+}
