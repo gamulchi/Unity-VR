@@ -31454,66 +31454,6 @@ PrefabInstance:
       propertyPath: ElevatorButton
       value: 
       objectReference: {fileID: 51353324}
-    - target: {fileID: 8641163004973551555, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: e_retry
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319603261263278573, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_AnchoredPosition.x
-      value: 0.0010376
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319603261263278573, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.00059509
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319603261263278573, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_SizeDelta.x
-      value: 800
-      objectReference: {fileID: 0}
-    - target: {fileID: 6319603261263278573, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_SizeDelta.y
-      value: 449.91
-      objectReference: {fileID: 0}
-    - target: {fileID: 5006149710312706912, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6254389633634735444, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2501269071920411566, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2397709018827557538, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4113806884948238459, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3431086608067784528, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5847622083182707108, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 6671871197346826385, guid: 2d2595ab3c0348b49ba683b3b105dbfa,
         type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
@@ -35033,7 +34973,7 @@ PrefabInstance:
     - target: {fileID: 4654938612821986989, guid: 8859470d8d6353841ab4670d4185219a,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 14.41511
+      value: 13.698
       objectReference: {fileID: 0}
     - target: {fileID: 4654938612821986989, guid: 8859470d8d6353841ab4670d4185219a,
         type: 3}
@@ -117909,15 +117849,15 @@ PrefabInstance:
       propertyPath: m_LocalScale.z
       value: 0.5
       objectReference: {fileID: 0}
-    - target: {fileID: 2743789289641987719, guid: da2ad7f10af18694c8380755dd94e922,
-        type: 3}
-      propertyPath: InitialModule.rotation3D
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 7633440027957116030, guid: da2ad7f10af18694c8380755dd94e922,
         type: 3}
       propertyPath: SmokeTime
       value: 300
+      objectReference: {fileID: 0}
+    - target: {fileID: 2743789289641987719, guid: da2ad7f10af18694c8380755dd94e922,
+        type: 3}
+      propertyPath: InitialModule.rotation3D
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: da2ad7f10af18694c8380755dd94e922, type: 3}

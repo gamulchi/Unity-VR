@@ -53,5 +53,6 @@ public class hit : MonoBehaviour
     {
         GManager.GetComponent<GamePlayManager>().BodyBurn = true;
         GManager.GetComponent<GamePlayManager>().IsGameEnd = true;
+        hitimage.SetActive(false);
     }
 }

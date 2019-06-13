@@ -60,8 +60,6 @@ public class Winner : MonoBehaviour
             #region 불끄기 엔딩
             if (fireoff == true)
             {
-                Debug.Log("확인");
-
                 Invoke("KillFireEndingFunc", 2.0f);
             }
             #endregion
@@ -105,6 +103,7 @@ public class Winner : MonoBehaviour
                 if (BurnEnding.activeInHierarchy == false)
                 {
                     BurnEnding.SetActive(true);
+                    GManager.GetComponent<GamePlayManager>().IsGameEnd = true;
                 }
             }
             #endregion
